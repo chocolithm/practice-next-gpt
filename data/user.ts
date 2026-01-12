@@ -15,7 +15,7 @@ export const getUserByEmail = async (email: string): Promise<User | null> => {
 
         return existingUser;
     } catch(error) {
-        console.error('error', error);
+        console.log('error', error);
         throw new Error('getUserByEmail error');
     }
 }

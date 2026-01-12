@@ -1,4 +1,4 @@
-"use server";
+'use server';
 
 import bcrypt from 'bcryptjs';
 import {SignUpSchema} from "@/schemas/auth";
@@ -7,7 +7,11 @@ import db from "@/db";
 import {user} from "@/db/schema";
 import {redirect} from "next/navigation";
 
-export const signup = async (_: never, formData: FormData) => {
+export type SignupState = {
+    errorMessage?: string;
+};
+
+export const signup = async (prevState: SignupState, formData: FormData) => {
     const validateFields = SignUpSchema.safeParse({
         name: formData.get("name"),
         email: formData.get("email"),
@@ -34,7 +38,7 @@ export const signup = async (_: never, formData: FormData) => {
 
         await db.insert(user).values({ name, email, password: hashedPassword});
     } catch(error) {
-        console.error('error', error);
+        console.log('error', error);
         throw new Error('signup error');
     }
 

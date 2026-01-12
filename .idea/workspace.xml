@@ -5,26 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fa61662-430f-4ca3-93c8-e06d7ec6a89c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/signup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/signup/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/auth/FormCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/auth/FormMessage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/auth/SignUpForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/auth/Submit.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/schema.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drizzle.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useFormValidate.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/db.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/form.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/login.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/sessions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(chat)/c/[conversationId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(chat)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(chat)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/chat/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/auth/LoginForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/AutoResizingTextarea.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/Chat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/Empty.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/Logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/LogoutButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/Message.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/MobileMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/ModelSelect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/SidebarItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/dummy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/sheet.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/signup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/signup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/auth/SignUpForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/SignUpForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/auth/Submit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/Submit.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/data/user.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/form.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/form.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +50,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="37TYMPAHZ1Rm32hHf9osRfku4Fo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,9 +66,11 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "C:/Users/kangy/git/next-gpt/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +80,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kangy\git\next-gpt\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kangy\git\next-gpt\app\(chat)\c\[conversationId]" />
+      <recent name="C:\Users\kangy\git\next-gpt\app" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
@@ -89,7 +119,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1766928481877</updated>
-      <workItem from="1766928484982" duration="4439000" />
+      <workItem from="1766928484982" duration="21442000" />
+      <workItem from="1768036689886" duration="19574000" />
     </task>
     <servers />
   </component>
